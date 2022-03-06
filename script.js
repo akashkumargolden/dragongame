@@ -49,6 +49,7 @@ setInterval(() => {
             audiogo.pause();
             audio.pause();
         }, 1000);
+        window.location.reload()
     }
     else if (offsetX < 145 && cross) {
         score += 1;
